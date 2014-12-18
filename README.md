@@ -1,4 +1,4 @@
-bristlebros
+Bristle Brothers
 ===========
 
 Bristle Brothers Simple Landing Page
