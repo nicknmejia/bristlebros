@@ -1,0 +1,44 @@
+.centered{
+	text-align: center;
+	margin: auto;
+}
+
+.form {
+    max-width: 75%;
+    max-height: 500px;
+    background-color: #309CA8;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    border-radius: 5px;
+    
+
+    margin: auto;
+}
+
+.header-text{
+	font-family: 'Bowlby One SC', cursive;
+	color: white;
+	text-align: center;
+	margin: auto;
+	font-size: 4.5em;
+	border-bottom: 2px #4AD9D9 double; 
+}
+
+
+.header-text2{
+	font-family: 'IM Fell English', serif;
+	color: white;
+	text-align: center;
+	margin: 15px auto;
+	font-size: 2em;
+}
+
+.info-box{
+	background-color: #F5A503;
+
+}
