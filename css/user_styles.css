@@ -20,6 +20,7 @@
     margin: auto;
 }
 
+
 .header-text{
 	font-family: 'Bowlby One SC', cursive;
 	color: white;
@@ -38,7 +39,44 @@
 	font-size: 2em;
 }
 
+.header-text-small{
+	font-family: 'Bowlby One SC', cursive;
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-bottom: 2px #4AD9D9 double; 
+}
+
+.header-text-small2{
+	font-family: 'IM Fell English', serif;
+	color: white;
+	text-align: center;
+	margin: 15px auto;
+}
+
 .info-box{
 	background-color: #F5A503;
+	border-radius: 15px;
+	padding-top:15px;
 
+}
+
+.info-font{
+	font-family: 'Bree Serif', serif;
+}
+
+.margin-bottom{
+	margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1100px){
+	.header-text{
+		font-size: 3.5em;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.form{
+		max-height: 90%;
+	}
 }

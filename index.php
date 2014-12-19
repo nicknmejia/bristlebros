@@ -7,27 +7,30 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" type="text/css" href="css/user_styles.css">
     <link href='http://fonts.googleapis.com/css?family=Great+Vibes|IM+Fell+English|Bowlby+One+SC|Ewert' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Fredoka+One|Bree+Serif' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
     
-    <form>
+    <form action="#">
       <div class="form row">
         <div class="large-12 large-centered columns line">
-          <h1 class="header-text">BRISTLE BROTHERS</h1>
+          <h1 class="header-text hide-for-small">BRISTLE BROTHERS</h1>
+          <h3 class="header-text-small show-for-small">BRISTLE BROTHERS</h3>
         </div>
         <div class="large-12 large-centered columns">
-          <h1 class="header-text2">- Fine Dental Care Producte -</h1>
-        </div>
-        <div class="large-12 large-centered columns">
-          <div class="centered">
-            <h4 class="button alert round">Sign up below for more info:
-          </div>
+          <h1 class="header-text2 hide-for-small">- Fine Dental Care Product -</h1>
+          <h3 class="header-text-small2 show-for-small">- Fine Dental Care Product -</h3>
         </div>
         <div class="large-6 large-centered columns">
-          <div class="centered">Please provide the following info:</div>
+          <div class="centered">
+            <h4 class="button alert radius hide-for-small info-font">Sign up below for more info:
+          </div>
+        </div>
+        <div class="large-6 large-centered columns info-box">
+          <div class="centered info-font margin-bottom">Please provide the following info:</div>
           <div class="large-6 columns">
-            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="First Name">  
             <input type="text" placeholder="Last Name">
           </div>
           <div class="large-6 columns">
@@ -35,7 +38,7 @@
             <input type="text" placeholder="Zip">
           </div>
           <div class="centered">
-            <h4 class="button success radius">Submit</h4>
+            <input type="submit"><h4 class="button success round">Submit</h4></input>
           </div>
         </div>
       </div>  
