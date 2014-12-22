@@ -1,8 +1,10 @@
 <?php
 
+include('../../db_script/login.php');
+
 $db = new PDO('mysql:host=localhost;dbname=bristleb_starter;charset=utf8', 
-			  'bristleb_php',
-			  'Chicken12', 
+			  USER,
+			  PASS, 
 			  array(PDO::ATTR_EMULATE_PREPARES => false, 
 			  	    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
