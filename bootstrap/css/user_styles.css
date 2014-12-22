@@ -5,7 +5,14 @@
 }
 
 @media screen and (max-width: 400px){
+	.navbar-fixed-top{
+		height: 160px;
+	}
+
 	#tab7{
 		 width:100%; left:0; top: 10%;padding-top: 37%;
+	}
+	.push-up{
+		margin-top: 70px;
 	}
 }
