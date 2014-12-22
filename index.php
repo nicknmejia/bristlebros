@@ -12,7 +12,7 @@
   </head>
   <body>
     
-    <form action="#">
+    <form>
       <div class="form row">
         <div class="large-12 large-centered columns line">
           <h1 class="header-text hide-for-small">BRISTLE BROTHERS</h1>
@@ -30,15 +30,15 @@
         <div class="large-6 large-centered columns info-box">
           <div class="centered info-font margin-bottom">Please provide the following info:</div>
           <div class="large-6 columns">
-            <input type="text" placeholder="First Name">  
-            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="First Name" name="f_name" id="f_name">  
+            <input type="text" placeholder="Last Name" name="l_name" id="l_name">
           </div>
           <div class="large-6 columns">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Zip">
+            <input type="text" placeholder="Email" name="email" id="email">
+            <input type="text" placeholder="Zip" name="zip" id="zip">
           </div>
           <div class="centered">
-            <input type="submit"><h4 class="button success round">Submit</h4></input>
+            <h4 class="button success round" id="submit">Submit</h4>
           </div>
         </div>
       </div>  
@@ -46,6 +46,7 @@
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/email.js"></script>
     <script>
       $(document).foundation();
     </script>
