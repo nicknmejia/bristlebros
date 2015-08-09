@@ -1,0 +1,18 @@
+body { 
+	padding-top: 70px;
+	background-image: url(../img/bblogo2.png);
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-size: 375px 375px;
+}
+
+.bb-home-header__h1{
+	font-size: 3.1em;
+	padding-top: 50%;
+
+}
+
+.bb-home-header__h4{
+	border-top: 2px black solid;
+	border-bottom: 2px black solid;
+}
