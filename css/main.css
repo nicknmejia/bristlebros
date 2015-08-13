@@ -6,13 +6,36 @@ body {
 	background-size: 375px 375px;
 }
 
-.bb-home-header__h1{
-	font-size: 3.1em;
-	padding-top: 50%;
+#logo_text{
+	color: white;
+	font-family: 'Anton', sans-serif;
+}
 
+.bb-home-header__h1{
+	font-size: 6em;
+	font-family: 'Anton', sans-serif;
 }
 
 .bb-home-header__h4{
 	border-top: 2px black solid;
 	border-bottom: 2px black solid;
+}
+
+@media only screen and (max-width: 991px) {
+	.bb-home-header__h1{
+		font-size: 4em;
+		font-family: 'Anton', sans-serif;
+	}
+	.bb-home-header__h4{
+		border-top: 2px black solid;
+		border-bottom: 2px black solid;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.bb-home-header__h1{
+		font-size: 3.1em;
+		padding-top: 20%;
+
+	}
 }
