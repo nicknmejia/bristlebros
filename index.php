@@ -52,13 +52,75 @@
 			</div>
 		</div>
 
+<!--   ###################################  -->
+<!--   ####### START PLANS SECTION #######  -->
+<!--   ###################################  -->
 		<div role="tabpanel" class="tab-pane fade" id="plans">
 		  	<div class="row">
 		  		<div class="col-xs-12">
-		  			<h3>A PLAN TO SUIT EVERYONES NEEDS</h3>
+		  			<h1>A PLAN TO SUIT EVERYONES NEEDS</h1>
 		  		</div>
 		  	</div>
+		  	<div class-"row">
+			  	<div class="col-xs-12">
+			  		<h3 class="pull-right">4 PLANS FOR YOU TO CHOOSE FROM:</h3>
+			  	</div>
+			</div>
+			<div class="row bb-separator">
+				<div class="col-xs-12 col-sm-6">
+					<h2 class="pull-right">Basic Bristle Bro</h2>
+					<p class="pull-right text-justify well">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a class="pull-right" href="#plans" aria-controls="plans" role="tab" data-toggle="tab"><button type="button" class="btn btn-info">BUY NOW</button></a>
+				</div>
+				<div class="col-xs-12 col-sm-6 text-center">
+					<img class="bb-plans-medallion" src="#" alt="Basic BB Medallion Image">
+				</div>
+			</div>
+			<div class="row bb-separator">
+				<div class="col-xs-12 col-sm-6 text-center">
+					<img class="bb-plans-medallion" src="#" alt="Basic BB Medallion Image">
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<h2>Basic Bristle Bro 4 Life</h2>
+					<p class="well">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a href="#plans" aria-controls="plans" role="tab" data-toggle="tab"><button type="button" class="btn btn-info">BUY NOW</button></a>
+				</div>
+			</div>
+			<div class="row bb-separator">
+				<div class="col-xs-12 col-sm-6">
+					<h2 class="pull-right">Fresh Bristle Bro</h2>
+					<p class="pull-right text-justify well">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a class="pull-right" href="#plans" aria-controls="plans" role="tab" data-toggle="tab"><button type="button" class="btn btn-info">BUY NOW</button></a>
+				</div>
+				<div class="col-xs-12 col-sm-6 text-center">
+					<img class="bb-plans-medallion" src="#" alt="Basic BB Medallion Image">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 text-center">
+					<img class="bb-plans-medallion" src="#" alt="Basic BB Medallion Image">
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<h2>Fresh Bristle Bro 4 Life</h2>
+					<p class="well">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a href="#plans" aria-controls="plans" role="tab" data-toggle="tab"><button type="button" class="btn btn-info">BUY NOW</button></a>
+				</div>
+			</div>
+			<div class="row bb-bulk-well">
+				<div class="col xs-12">
+					<h1 class="text-center">BUY IN BULK</h1>
+				</div>
+				<div class="col-xs-12 text-center">
+					<img class="bb-plans-medallion" src="#" alt="BB Bulk Medallion Image">
+					<p>Lorem ipsum Dolore dolor sed magna et eu mollit eiusmod ut ullamco consectetur ad mollit ad esse ut qui ex proident cillum culpa velit eiusmod eiusmod minim dolore aliqua cillum nostrud deserunt quis adipisicing id adipisicing in nulla aliqua incididunt.</p>
+					<a href="#plans" aria-controls="plans" role="tab" data-toggle="tab"><button type="button" class="btn btn-info">BUY NOW</button></a>
+				</div>
+			</div>
 		</div>
+
+<!--   ###################################  -->
+<!--   ######## END PLANS SECTION ########  -->
+<!--   ###################################  -->
 
 		<div role="tabpanel" class="tab-pane fade" id="about">
 			<div class="row">
