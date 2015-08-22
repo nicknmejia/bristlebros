@@ -1,0 +1,35 @@
+.home{
+	background-color: red;
+}
+
+#heading{
+	font-family: 'Changa One', cursive;
+	font-size: 6em;
+	color: white;
+}
+
+#sub-heading{
+	font-family: 'Changa One', cursive;
+	color: white;	
+}
+
+.margin-bottom-clip{
+	margin-bottom: -10px;
+}
+
+.centered{
+	text-align: center;
+	margin: auto;
+}
+
+.info1{
+	background-color: #F5A503;
+}
+
+.info2{
+	background-color: #E9F1DF;
+}
+
+.info3{
+	background-color: #75FCC4;
+}

@@ -1,0 +1,101 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/user_styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Fredoka+One|Changa+One|Passion+One' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+
+    <div id="fullpage">
+        <div class="section home">
+          <div class="row">
+            <div class="large-12 columns centered"><h1 class="" id="heading">BRISTLE BROTHERS</h1></div>
+            <div class="large-12 columns centered"><h2 class="margin-bottom-clip" id="sub-heading">Never brush with your finger again!</h2></div>
+            <div class="large-12 columns centered"><h3 id="sub-heading">Let us send you a new toothbrush every month.</h3></div>
+            <div class="large-12 columns centered"><a href="#" class="button alert" data-reveal-id="myModal">Sign up today!</a></div>
+
+            <div id="myModal" class="reveal-modal" data-reveal>
+              <h2>Get your brush on!</h2>
+              <p class="lead">Just give us some simple info.  We don't need your full address yet.</p>
+              <input type="text" placeholder="First Name" id="f_name" name="f_name">
+              <input type="text" placeholder="Last Name" id="l_name" name="l_name">
+              <input type="text" placeholder="Email" id="email" name="email">
+              <input type="text" placeholder="Zip Code" id="zip" name="zip">
+              <a href="#" class="button success" data-reveal-id="myModal2">Submit!</a>
+              <a class="close-reveal-modal">&#215;</a>
+            </div>
+
+            <div id="myModal2" class="reveal-modal" data-reveal>
+              <h2>Thanks!</h2>
+              <p class="lead">We've got your info and we've sent you an email.  Get ready to enjoy your new toothbrush!</p>
+              <a href="#" class="button info" data-reveal-id="myModal2">Close this popup!</a>
+              <a class="close-reveal-modal">&#215;</a>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="section">
+          <div class="slide info1">
+            <div class="row">
+              <div class="large-12 columns centered"><p>More than 50 million plastic toothbrushes end up in U.S. land fills every year!</p></div>
+            </div>
+          </div>
+          <div class="slide info2">
+            <div class="row">
+              <div class="large-12 columns centered"><h2>Why do we love bamboo?</h2></div>
+              <div class="large-12 columns centered"><p>Bamboo is amazing! It's a strong, beautiful, and renewable grass. It grows quickly and has more uses than we can count. Bamboo will not sit in our landfills for thousands of years like other materials we've found acceptable in the past. In fact, you could throw your used Bristle Brothers toothbrush into your own back yard and watch it deteriorate naturally, bristles and all!
+
+              If we look at all the benefits of using this compostable bamboo brush against the long list of reasons against using a standard plastic brush, the question is not "Why bamboo?", but rather "Why plastic?"</p></div>
+            </div>
+          </div>
+          <div class="slide info3">
+            <div class="row">
+              <div class="large-12 columns centered"><h2>How this works:</h2></div>
+              <div class="large-12 columns centered"><p>Let's keep things simple.
+
+                Each subscription to Bristle Brothers gets you one of our compostable bamboo toothbrushes.
+
+                You will let us know how often you change your toothbrush and we will send you a fresh one accordingly.
+
+                Do you change once a month, like the Bristle Brothers? Fresh bristles will arrive every 30 days! Are you waiting for that next quarter before you refresh your brush? We've got you covered. Somewhere in-between? We can do that too!
+
+                Sign up with us now and you will receive your first bamboo toothbrush for FREE!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section about">
+          <div class="row">
+            <div class="large-12 columns centered"><h2>About the Bristle Brothers</h2></div>
+            <div class="large-12 columns centered"><p>Bristle brothers rule!</p></div>
+          </div>
+        </div>
+        <div class="section contact">
+          Contact Page
+        </div>
+        
+    </div>
+    
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script>
+      $(document).foundation();
+      $(document).ready(function() {
+          $('#fullpage').fullpage({
+            sectionsColor : ['#4AD9D9', '#F5A503','#F2385A','#36B1BF']
+          });
+      });
+    </script>
+
+  </body>
+</html>
