@@ -5,7 +5,6 @@ $("#one, #two, #four, #five").click(function(){
 
 $("#logo").click(function(){
 	$("#three").css("display", "hidden");
-	$("#two").css("border-right", "1px solid black");
 });
 
 
@@ -18,3 +17,21 @@ $('.nav-button').on('click', function(){
 $('#logo').on('click', function(){
 	$('.nav-button').removeClass('active');
 })
+
+$(document).ready(function() {
+    $(window).resize(function(){
+        var $c = $('.container'),
+            $w = $('.bb-bulk-well'),
+            totalWidth = $('.navbar').outerWidth(),
+            wellWidth = $c.outerWidth(),
+            diff = totalWidth,
+            marg = -Math.floor(diff/2) + 'px';
+        $w.each(function(){
+            $(this).css({
+                'margin-left': marg,
+                'margin-right': marg
+            });
+        })        
+    });     
+    $(window).resize();
+});
